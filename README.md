@@ -39,9 +39,3 @@ class Car_Inventory(models.Model):
 class Car_InventoryAdmin(admin.ModelAdmin):
     list_display = ('Plate_No','Car_Model','Car_Type','Mileage','Engine_Type','Make_Date')
     ```
-# OUTPUT
-![alt text](<Screenshot (14).png>)
-
-
-# RESULT
-Thus the program for creating a database using ORM hass been executed successfully
